@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+<form novalidate>
+    <fieldset align="center">
+        <legend>Personal Details:</legend>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br>
+        <br>
+        <label >Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+         <label for="male">Male</label>
+         <input type="radio" id="female" name="gender" value="female">
+         <label for="female">Female</label>
+        <br>
+        <Label> Language: </Label>
+        <input type="checkbox" id="bangla" name="Lang" value="bangla">
+        <label for="bangla">Bangla</label>
+        <input type="checkbox" id="english" name="lang" value="english">
+        <label for="english">English</label><br>
+        <br>
+        <Label for="dob">Date of Birth:</Label>
+        <input type="date" id="dob" name="dob"><br>
+        <br>
+        <label for="pcolour">Prefered Colour:</label>
+        <input type="color" id="pcolour" name="pcolour">
+
+    </fieldset>
+   <fieldset align="center">
+       <legend>Contact Details:</legend>
+       <Label for="country">Country:</Label>
+       <select id="country" name="country">
+           <option value="Bangladesh">Bangladesh</option>
+           <option value="U.K.">U.K.</option>
+           <option value="U.S.">U.S.</option>
+           <option value="Italy">Italy</option>
+           <option value="China">China</option>
+           <option value="Japan">Japan</option>
+           <option value="Pakistan">Pakistan</option>
+           <option value="India">India</option>
+           <option value="Singapore">Singapore</option>
+           <option value="Brazil">Brazil</option>
+           <option value="Argentina">Argentina</option>
+           <option value="Portugal">Portugal</option>
+           <option value="Bahrain">Bahrain</option>
+           <option value="Greece">Greece</option>
+           <option value="France">France</option>
+           <option value="Ireland">Ireland</option>
+           <option value="Switzerland">Switzerland</option>
+           <option value="Germany">Germany</option>
+           <option value="Australia">Australia</option>
+           <option value="Spain">Spain</option>
+           <option value="Netherland">Netherland</option>
+           <option value="Canada">Canada</option>
+           <option value="Nigeria">Nigeria</option>
+           <option value="Russia">Russia</option>
+           <option value="Iran">Iran</option>
+
+       </select>
+       <br>
+       <br>
+       <Label for="state">State:</Label>
+       <input type="text" id="state" name="state"><br>
+       <br>
+       <Lable for="address">Address: </Lable>
+       <input type="text" id="address" name="address">
+
+
+   </fieldset>
+
+
+    <fieldset align="center">
+        <legend>Contact Deatils(Digital):</legend>
+        <label for="Email">Email: </label>
+        <input type="email" id="Email" name="Email"><br>
+        <br>
+        <Label for="pnumber">Phone:</Label>
+        <select name="cni">
+            <option value="+880">+880</option>
+            <option value="+1">+1</option>
+            <option value="+44">+44</option>
+            <option value="+91">+91</option>
+            <option value="+61">+61</option>
+        </select>
+        <input type="tel" id="pnumber" name="pnumber"><br>
+        <br>
+
+    </fieldset>
+    <fieldset align="center">
+        <legend>Bio</legend>
+        <Label for="Description">Write something about yourself</Label><br>
+        <textarea id="Description" name="Description" placeholder="Please write here........" rows="5" cols="60">
+
+        </textarea>
+    </fieldset>
+    <br>
+    <br>
+    <input type="submit" value="Register">
+
+</form>
+</body>
+
+
+</html>
